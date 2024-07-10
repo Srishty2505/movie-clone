@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.movieContainer header,
+.movieContainer1 header,
+.movieContainer2 header {
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#wrapper,
+#wrapper1,
+#wrapper2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.movieWrapper,
+.movieWrapper1,
+.movieWrapper2 {
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.movieWrapper::-webkit-scrollbar,
+.movieWrapper1::-webkit-scrollbar,
+.movieWrapper2::-webkit-scrollbar {
+    display: none;
+}
+
+.movieWrapper>div,
+.movieWrapper1>div,
+.movieWrapper2>div {
+    display: flex;
+    gap: 16px;
+}
+
+.movieWrapper>div img,
+.movieWrapper1>div img,
+.movieWrapper2>div img {
+    width: 200px;
+    border-radius: 0.5rem;
+}
